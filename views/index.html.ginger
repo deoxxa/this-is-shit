@@ -1,0 +1,42 @@
+<html>
+    <head>
+        <title>This is SHIT info</title>
+        <link rel="stylesheet" href="/shit.css" />
+    </head>
+
+    <body>
+        <h1>This is SHIT info</h1>
+        <div id="content">
+            <img class="steamer" src="/turd2.png">
+            <h2>What is this SHIT?</h2>
+            <img id="scrot" src="/screenshot.jpg" />
+            <p>Essentialy, its a communal way to keep track of pages that are not worth your time.</p>
+            <p>This is SHIT info is a extension for the Chrome Browser.</p>
+            <p>It adds a button to your toolbar so that you can flag the current page you are on as SHIT.</p>
+            <p>It also lets you know if a page you visit is thought to be SHIT by other users.</p>
+            <div id="install"><a href="/this-is-shit.crx"><h3>Install this SHIT</h3></a></div>
+            <h2>Top 10 SHIT pages</h2>
+            <h4>What's the Number 1 Number 2?</h4>
+            <ul>
+                {% for i, shit in shits %}
+                    <li><span class="count">{{ shit.count }}</span><a href="{{ shit.url|e }}">{{ shit.url|short|e }}</a></li>
+                {% endfor %}
+            </ul>
+            <div class="info">
+                <p>rapid development in an afternoon by <a href="https://github.com/deoxxa">deoxxa</a> and <a href="https://github.com/dnoiz1">dnz</a>.<br />
+                special thanks to <a href="http://twitter.com/marxamus">Mark</a> for his shit design tips.<br />inspired by shitheads who write terrible articles and tweets 
+            </div>
+        </div>
+        <script>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-29610379-1']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+        </script>
+    </body>
+</html>

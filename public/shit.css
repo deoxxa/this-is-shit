@@ -1,0 +1,98 @@
+/* start shit css */
+@font-face {
+ font-family: PooSmooth;
+ src: url("PooSmooth.eot") /* EOT file for IE */
+}
+@font-face {
+ font-family: PooSmooth;
+ src: url("PooSmooth.ttf") /* TTF file for CSS3 browsers */
+}
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: Helvetica, Arial;
+}
+html {
+    background: url(bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#content {
+    margin-top: 35px;
+    padding: 60px;
+}
+.steamer {
+    margin-top: -125px;
+    margin-left: 336px;
+}
+#scrot {
+    float: right;
+}
+#install {
+    border-radius: 5px;
+    background-color: #5d3500;
+    opacity: 0.95;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#install a {
+    text-decoration: none;
+}
+#install a:hover  {
+    font-style: italic;
+}
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 4em;
+    font-family: 'PooSmooth';
+    text-align: center;
+    color: #7f4000;
+}
+#content {
+    background-color: #7f4000;
+    margin-left: auto;
+    margin-right: auto;
+    width: 520px;
+    border-radius: 50px;
+    opacity: 0.80;
+}
+p {
+    margin: 10px 0;
+}
+ul {
+    list-style: none;
+}
+ul li {
+    margin: 10px 0;
+}
+ul li span {
+    display: inline-bock;
+    background-color: #7b0000;
+    color: white;
+    font-weight: heavy;
+    height: 16px;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    padding: 2px;
+}
+ul li a {
+    text-decoration: none;
+}
+ul li a:hover {
+    text-decoration: underline;
+}
+.info {
+    margin-top: 30px;
+}
+.info p {
+    font-size: 0.8em;
+    text-align: center;
+}

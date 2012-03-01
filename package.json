@@ -1,0 +1,10 @@
+{
+  "name": "this-is-shit",
+  "version": "0.0.1",
+  "dependencies": {
+    "express": "2.5.x",
+    "ginger": "0.0.9",
+    "mongoskin": "0.3.0",
+    "ent": "0.0.4"
+  }
+}
